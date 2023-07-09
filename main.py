@@ -1,7 +1,7 @@
 import cv2 as cv
 import mediapipe as mp
 
-dice = cv.imread('dice.png',cv.IMREAD_UNCHANGED)
+dice = cv.imread('heart.png',cv.IMREAD_UNCHANGED)
 dice = cv.resize(dice,dsize=(0,0), fx=0.1, fy=0.1)
 w,h = dice.shape[1],dice.shape[0]
 
